@@ -1,0 +1,69 @@
+<ScrollView android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@drawable/gradient"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="20dp"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+        <EditText
+            android:layout_margin="10dp"
+            android:hint="Movie Name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:layout_margin="10dp"
+            android:hint="Movie Language"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:layout_margin="10dp"
+            android:hint="Actor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:layout_margin="10dp"
+            android:hint="Actress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:layout_margin="10dp"
+            android:hint="Release Year"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:layout_margin="10dp"
+            android:hint="Director"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:hint="Producer"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:layout_margin="10dp"
+            android:inputType="number"
+            android:hint="Total Collection"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_margin="10dp"
+            android:background="@drawable/button"
+            android:text="REGISTER"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_margin="10dp"
+            android:background="@drawable/button"
+            android:text="BACK"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+    </LinearLayout>
+
+</ScrollView>
